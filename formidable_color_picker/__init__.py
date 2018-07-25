@@ -1,0 +1,1 @@
+default_app_config = 'formidable_color_picker.apps.FormidableColorPickerConfig'
