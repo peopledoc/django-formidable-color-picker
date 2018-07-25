@@ -7,9 +7,10 @@ This is a "Proof of Concept" external field for `django-formidable`. Regular / c
 For the sake of the example, we've created a "color picker" abstract field here, that will be enable the following:
 
 - [x] Forms can be created/updated with this `color_picker` type of field.
-- [ ] These fields would carry at least a `format` parameter (`rgb` or `hex`).
-- [ ] This `format` parameter will be checked when trying to save a form.
-- [ ] Serializing the form definition in JSON would also carry this field and its definition, so a "smart" front-end would be able to manipulate it in a "form builder" or a "form filler".
+- [x] These fields would carry at least a `format` parameter (`rgb` or `hex`).
+- [x] This `format` parameter will be checked when trying to save a form.
+- [x] Serializing the form definition in JSON would also carry this field and its definition, so a "smart" front-end would be able to manipulate it in a "form builder" or a "form filler".
+- [ ] When an end-user would submit a form using this form definition, the value selected by the user (the color) would have to be checked against a "form-data" validator, to make sure they have selected a correct color.
 
 ## Usage
 
