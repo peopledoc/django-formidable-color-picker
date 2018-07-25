@@ -11,6 +11,11 @@ For the sake of the example, we've created a "color picker" abstract field here,
 - [ ] This `format` parameter will be checked when trying to save a form.
 - [ ] Serializing the form definition in JSON would also carry this field and its definition, so a "smart" front-end would be able to manipulate it in a "form builder" or a "form filler".
 
+## Usage
+
+* Install this module via `pip install -e ./` in your virtualenv
+* Add `formidable_color_picker` to the ``INSTALLED_APPS``, preferrably right after `django-formidable`.
+* Profit!
 
 ## License
 
